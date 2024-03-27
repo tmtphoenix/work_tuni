@@ -41,24 +41,27 @@
             <a class="nav-link active" aria-current="page" href="./home.php">Home</a>
           </li>
           
-          <li class="nav-item">
-            <a class="nav-link" href="#">courses</a>
-          </li>
+          
         </li>
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
           Type of school
           </a>
           <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <li><a class="dropdown-item" href="#">private</a></li>
-            <li><a class="dropdown-item" href="#">public</a></li>
-            <li><a class="dropdown-item" href="#">international</a></li>
+            <li><a class="dropdown-item" href="./private.php">private</a></li>
+            <li><a class="dropdown-item" href="./public.php">public</a></li>
+            <li><a class="dropdown-item" href="./international.php">international</a></li>
           </ul>
         </li>
           <li class="nav-item">
             <a class="nav-link" href="#">school search</a>
           </li>
 
+        </ul>
+        <ul class="navbar-nav mr-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="./form.php">register</a>
+          </li>
         </ul>
         <ul class="navbar-nav mr-auto mb-2 mb-lg-0">
           <li class="nav-item">

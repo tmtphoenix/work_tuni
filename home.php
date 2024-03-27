@@ -39,24 +39,27 @@
             <a class="nav-link active" aria-current="page" href="./home.php">Home</a>
           </li>
           
-          <li class="nav-item">
-            <a class="nav-link" href="#">courses</a>
-          </li>
+          
         </li>
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             Type of school
           </a>
           <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <li><a class="dropdown-item" href="#">private</a></li>
-            <li><a class="dropdown-item" href="#">public</a></li>
-            <li><a class="dropdown-item" href="#">international</a></li>
+            <li><a class="dropdown-item" href="./private.php">private</a></li>
+            <li><a class="dropdown-item" href="./public.php">public</a></li>
+            <li><a class="dropdown-item" href="./international.php">international</a></li>
           </ul>
         </li>
           <li class="nav-item">
             <a class="nav-link" href="#">school search</a>
           </li>
 
+        </ul>
+        <ul class="navbar-nav mr-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="./form.php">register</a>
+          </li>
         </ul>
         <ul class="navbar-nav mr-auto mb-2 mb-lg-0">
           <li class="nav-item">
@@ -71,8 +74,7 @@
     </div>
   </nav>
   <!--Narvbar end-->
-<div class="main ">
-  <div class="main d-flex ">
+  <div class="main d-flex"> 
    <div class="card-container">
     <div class="card">
       <img src="https://i.pinimg.com/564x/80/35/1e/80351e04146fd3b134cf582b5dddbed9.jpg" alt="">
@@ -81,7 +83,7 @@
         <p>$50,000
             
         </p>
-        <a href="" class="btn">LEARN MORE</a>
+        <a href="./learn more.php" class="btn">LEARN MORE</a>
       </div>
     </div>
   </div>
@@ -92,7 +94,7 @@
       <div class="card-content">
         <h3>card 2</h3>
         <p>   $60,000       </p>
-        <a href="" class="btn">LEARN MORE</a>
+        <a href="./learn more.php" class="btn">LEARN MORE</a>
       </div>
     </div>
   </div>
@@ -104,18 +106,21 @@
       <div class="card-content">
         <h3>card 3</h3>
         <p>   $90,000       </p>
-        <a href="" class="btn">LEARN MORE</a>
+        <a href="./learn more.php" class="btn">LEARN MORE</a>
       </div>
     </div>
   </div>
+  
+ <div class="main">
 
+ </div>
   <div class="card-container">
     <div class="card">
       <img src="https://i.pinimg.com/736x/91/b2/51/91b251e5f01586bb1c15bbf105593188.jpg" alt="">
       <div class="card-content">
         <h3>card 5</h3>
         <p>     $100,000     </p>
-        <a href="" class="btn">LEARN MORE</a>
+        <a href="./learn more.php" class="btn">LEARN MORE</a>
       </div>
     </div>
   </div>
@@ -126,7 +131,7 @@
       <div class="card-content">
         <h3>card 5</h3>
         <p>          </p>
-        <a href="" class="btn">LEARN MORE</a>
+        <a href="./learn more.php" class="btn">LEARN MORE</a>
       </div>
     </div>
   </div>
@@ -137,7 +142,7 @@
       <div class="card-content">
         <h3>card 6</h3>
         <p>          </p>
-        <a href="" class="btn">LEARN MORE</a>
+        <a href="./learn more.php" class="btn">LEARN MORE</a>
       </div>
     </div>
   </div>
@@ -148,7 +153,7 @@
       <div class="card-content">
         <h3>card 7</h3>
         <p>          </p>
-        <a href="" class="btn">LEARN MORE</a>
+        <a href="./learn more.php" class="btn">LEARN MORE</a>
       </div>
     </div>
   </div>
@@ -159,7 +164,7 @@
       <div class="card-content">
         <h3>card 8</h3>
         <p>          </p>
-        <a href="" class="btn">LEARN MORE</a>
+        <a href="./learn more.php" class="btn">LEARN MORE</a>
       </div>
     </div>
   </div>
@@ -170,7 +175,7 @@
       <div class="card-content">
         <h3>card 9</h3>
         <p>          </p>
-        <a href="" class="btn">LEARN MORE</a>
+        <a href="./learn more.php" class="btn">LEARN MORE</a>
       </div>
     </div>
   </div>

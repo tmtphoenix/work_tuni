@@ -31,6 +31,9 @@ nav{
      color: red;
      background-color: white;
  }
+ .sticky + .content {
+   padding-top: 60px;
+ }
  /********************
   carousel
  ********************/
@@ -114,9 +117,11 @@ nav{
  body{
    background-color: #f0f0f0;
  }
- 
+ .grid-container{ 
+
+ }
 .card-container{
-   display: flex;
+   display: block;
    justify-content: center;
    flex-wrap: wrap;
    margin-top: 100px;
